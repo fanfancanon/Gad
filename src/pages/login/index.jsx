@@ -57,7 +57,6 @@ function Login (props) {
                 >
                     <Input />
                         </Form.Item>
-
                         <Form.Item
                             label="Pwd"
                             name="pwd"
@@ -68,7 +67,7 @@ function Login (props) {
                                 },
                             ]}
                         >
-                  <Input.Password />
+                     <Input.Password />
                 </Form.Item>
                 <Form.Item {...tailLayout} name="remember" valuePropName="checked">
                     <Checkbox>Remember me</Checkbox>
